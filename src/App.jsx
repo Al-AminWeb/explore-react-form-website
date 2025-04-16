@@ -3,6 +3,7 @@ import SimpleForm from "./Components/SimpleForm/SimpleForm.jsx";
 import FormAction from "./Components/FormAction/FormAction.jsx";
 import ControlledField from "./Components/ControlledField/ControlledField.jsx";
 import HookForm from "./Components/HookForm/HookForm.jsx";
+import ProductManagement from "./Components/prroductManagement/ProductManagement.jsx";
 
 function App() {
 
@@ -13,7 +14,8 @@ function App() {
             {/*<SimpleForm></SimpleForm>*/}
             {/*{<FormAction></FormAction>*/}
             {/*    <ControlledField></ControlledField>*/}
-            <HookForm></HookForm>
+            {/*<HookForm></HookForm>*/}
+            <ProductManagement/>
         </>
     )
 }
